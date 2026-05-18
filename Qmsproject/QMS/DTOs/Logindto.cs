@@ -1,0 +1,12 @@
+using System;
+
+namespace QMS.DTOs;
+
+public class Logindto
+{
+    
+public string Email { get; set; }
+    public string Password { get; set; }
+public string Role { get; set; } 
+
+}
